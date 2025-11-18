@@ -16,17 +16,18 @@ This embedded system:
     ✔ Works exactly like an automotive ECU runtime counter
 
  Hardware Components
-Component	                                                                    Purpose
-PIC16F887 Microcontroller                                                    	Main controller, timers, EEPROM, I2C
-DS1307 RTC Module                                                            	Provides accurate time using I²C
-16x2 LCD Display                                                             	Shows RTC time + Fan runtime
-Matrix Keypad (3×4)                                                          	Set HH:MM:SS
-Internal EEPROM                                                              	Stores runtime across power OFF
-Timer1 Module                                                                	Generates 1-second interrupts
-LEDs (RA4, RA5)                                                              	System indication pattern
-Push Button (RA0)                                                            	Fan ON/OFF toggle
-Push Button (RA1, RA2)                                                      	Set RTC / Reset EEPROM
-5V Power Supply	                                                              System power
+ 
+      Component	                                                                    Purpose
+      PIC16F887 Microcontroller                                                    	Main controller, timers, EEPROM, I2C
+      DS1307 RTC Module                                                            	Provides accurate time using I²C
+      16x2 LCD Display                                                             	Shows RTC time + Fan runtime
+      Matrix Keypad (3×4)                                                          	Set HH:MM:SS
+      Internal EEPROM                                                              	Stores runtime across power OFF
+      Timer1 Module                                                                	Generates 1-second interrupts
+      LEDs (RA4, RA5)                                                              	System indication pattern
+      Push Button (RA0)                                                            	Fan ON/OFF toggle
+      Push Button (RA1, RA2)                                                      	Set RTC / Reset EEPROM
+      5V Power Supply	                                                              System power
 
 ⚙️ Features
 
