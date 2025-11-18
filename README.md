@@ -7,13 +7,13 @@ It continuously monitors ON-time, stores runtime in EEPROM, displays a real-time
 
 This embedded system:
 
-  ✔ Measures and displays fan/engine runtime (HH:MM:SS)
-  ✔ Stores the runtime in internal EEPROM (non-volatile)
-  ✔ Uses DS1307 RTC to show Real-Time Clock
-  ✔ Allows user to set time through a keypad
-  ✔ Uses Timer1 interrupt for 1-second timing
-  ✔ Includes LED alert pattern (first 4 sec OFF → then 1s ON/OFF alternation)
-  ✔ Works exactly like an automotive ECU runtime counter
+    ✔ Measures and displays fan/engine runtime (HH:MM:SS)
+    ✔ Stores the runtime in internal EEPROM (non-volatile)
+    ✔ Uses DS1307 RTC to show Real-Time Clock
+    ✔ Allows user to set time through a keypad
+    ✔ Uses Timer1 interrupt for 1-second timing
+    ✔ Includes LED alert pattern (first 4 sec OFF → then 1s ON/OFF alternation)
+    ✔ Works exactly like an automotive ECU runtime counter
 
  Hardware Components
 Component	                                                                    Purpose
