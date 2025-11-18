@@ -31,42 +31,42 @@ This embedded system:
 
 ⚙️ Features
 
-    🔹 1. Real-Time Clock (RTC) Display
-    
-      Reads time from DS1307 via I²C and displays:
-    
-      RTC – HH:MM:SS
-    
-    🔹 2. Fan Runtime Monitoring
-    
-      Counts total runtime:
-    
-      Continues counting when fan is ON
-    
-      Stops when fan is OFF
-    
-      Saves current HH:MM:SS in EEPROM
-    
-    🔹 3. EEPROM-Based Backup
-    
-      Even after power restart, runtime continues from the saved value.
-    
-    🔹 4. LED Pattern Logic
-      0–4 seconds → Both LEDs OFF  
-      ≥ 4 seconds → LED1 & LED2 alternate every 1 second  
-    
-    🔹 5. Keypad Time Setting
-    
-    Format:
-    
-        HH * MM * SS #
-    
-    
-    Automatically limits incorrect values:
-    
-    Hours > 23 → set to 23
-    
-    Minutes/Sec > 59 → set to 59
+     🔹 1. Real-Time Clock (RTC) Display
+     
+       Reads time from DS1307 via I²C and displays:
+     
+       RTC – HH:MM:SS
+     
+     🔹 2. Fan Runtime Monitoring
+     
+       Counts total runtime:
+     
+       Continues counting when fan is ON
+     
+       Stops when fan is OFF
+     
+       Saves current HH:MM:SS in EEPROM
+     
+     🔹 3. EEPROM-Based Backup
+     
+       Even after power restart, runtime continues from the saved value.
+     
+     🔹 4. LED Pattern Logic
+       0–4 seconds → Both LEDs OFF  
+       ≥ 4 seconds → LED1 & LED2 alternate every 1 second  
+     
+     🔹 5. Keypad Time Setting
+     
+     Format:
+     
+         HH * MM * SS #
+     
+     
+     Automatically limits incorrect values:
+     
+     Hours > 23 → set to 23
+     
+     Minutes/Sec > 59 → set to 59
 
 🧠 Software Workflow
 
